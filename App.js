@@ -19,6 +19,9 @@ const App: () => React$Node = () => {
 
     const {mimeType, data, extraData} = item;
 
+    console.log(data);
+    console.log(extraData);
+    console.log(mimeType);
     setSharedData(data);
     setSharedExtraData(extraData);
     setSharedMimeType(mimeType);
